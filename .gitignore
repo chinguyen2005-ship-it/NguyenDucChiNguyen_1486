@@ -1,0 +1,78 @@
+# ====================================================================
+# KIDGUARD - REPOSITORY ROOT GITIGNORE
+# Project: NguyenDucChiNguyen_1486
+# Target: Public GitHub Repository (Mobile & Documentation Only)
+# ====================================================================
+
+# 1. GROUP BACKEND (TUYỆT ĐỐI KHÔNG PUSH BACKEND CHUNG LÊN GITHUB)
+/backend-group/
+/backend/
+NguyenDucChiNguyen_1486.sln
+reverse_ports.bat
+scripts/
+
+# 2. BẢO MẬT & SECRETS (Credentials, Keys, Tokens, Configs)
+.env
+.env.*
+!.env.example
+**/appsettings.Development.json
+**/appsettings.Production.json
+**/secrets.json
+*.pfx
+*.pem
+*.jks
+*.keystore
+**/android/key.properties
+**/android/local.properties
+
+# 3. .NET / VISUAL STUDIO ARTIFACTS
+.vs/
+**/bin/
+**/obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 4. DATABASE FILES & BACKUPS
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+*.bak
+
+# 5. FLUTTER / DART BUILD & DEPENDENCY ARTIFACTS
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+**/build/
+/coverage/
+.widget_preview/
+
+# 6. MOBILE COMPILED PACKAGES & PACKAGES
+*.apk
+*.aab
+/android/app/debug
+/android/app/profile
+/android/app/release
+**/ios/Flutter/.last_build_id
+
+# 7. OS & IDE TEMPORARY FILES
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.bak
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# 8. SCRATCH & LOCAL TESTING CACHE
+scratch/
+.tempmediaStorage/
